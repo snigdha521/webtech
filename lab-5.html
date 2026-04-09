@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Student List DOM Practice</title>
+<link rel="stylesheet" href="lab5_task_css.css">
+</head>
+
+<body>
+
+<h1>Student List</h1>
+
+<!-- Student Form -->
+<form id="student-form">
+
+<label for="student-roll">Roll No:</label>
+<input type="text" id="student-roll" placeholder="Enter roll">
+
+<label for="student-name">Student Name:</label>
+<input type="text" id="student-name" placeholder="Enter student name">
+
+<button type="submit" id="add-btn" disabled>Add Student</button>
+
+</form>
+
+<!-- Search -->
+<input type="text" id="search-box" placeholder="Search student">
+
+<!-- Student List -->
+<ul id="student-list"></ul>
+
+<p id="student-count">Total students: 0</p>
+<p id="attendance">Present: 0 , Absent: 0</p>
+
+<button id="sort-btn">Sort A-Z</button>
+<button id="highlight-first">Highlight First Student</button>
+
+<script src="lab5_task.js"></script>
+
+</body>
+</html>
